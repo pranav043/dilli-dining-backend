@@ -2,6 +2,9 @@
 # Dilli Dining Backend
 This Repository contains the server code for Dilli Dining Application.
 
+## Frontend URL:
+https://github.com/pranav043/dilli-dining-frontend
+
 ## Installation
 
 Run Following commands to run this project-
@@ -15,7 +18,7 @@ Run Following commands to run this project-
     
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your config.env file
 
 `PORT`: 8001
 
