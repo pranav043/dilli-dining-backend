@@ -6,7 +6,7 @@ import { errorMiddleware } from "./error/error.js";
 import reservationRouter from "./routes/reservationRoute.js";
 
 const app = express();
-dotenv.config({ path: "./config.env" });
+dotenv.config({ path: "./.env" });
 app.use(cors());
 
 app.use(express.json());
