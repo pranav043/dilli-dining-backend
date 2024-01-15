@@ -12,6 +12,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get("/", (req, res) => {
+  res.send({ status: "OK" });
+});
+
 //Health check
 app.get("/health", (req, res) => {
   res.status(200).json({ status: "Healthy" });
